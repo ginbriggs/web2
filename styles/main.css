@@ -5,6 +5,7 @@
  * 1. Correct the line height in all browsers.
  * 2. Prevent adjustments of font size after orientation changes in iOS.
  */
+@import url("https://fonts.googleapis.com/css?family=Oswald|PT+Sans+Narrow&display=swap");
 html {
   line-height: 1.15;
   /* 1 */
@@ -341,13 +342,50 @@ template {
   display: none;
 }
 
-.container {
-  background-color: yellow;
+h1 {
+  font-family: "Oswald", sans-serif;
+  color: #ff6abc;
+  font-size: 30px;
+  text-align: center;
+}
+
+h2 {
+  font-family: "PT Sans Narrow", cursive;
+  color: #e77bb1;
+  font-size: 20px;
+  text-align: center;
+}
+
+p {
+  text-align: center;
+  font-family: "PT Sans Narrow", cursive;
+  color: #ca228a;
+  font-size: 15px;
+}
+
+h1 {
+  background-image: url(/assets/images/pastel.jpg);
+  height: 40px;
+}
+
+body {
+  background-color: #fce9f6;
+}
+
+.container h1 {
+  background-size: cover;
+  background-position-x: center;
+}
+
+@media (min-width: 768px) {
+  .container {
+    background-color: #ff7dba;
+  }
 }
 
 @media (min-width: 1024px) {
   .container {
-    background-color: navy;
+    background-color: #9c2897;
   }
 }
 /*# sourceMappingURL=main.css.map */
