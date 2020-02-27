@@ -1,0 +1,15 @@
+@import './vendors/normalize';
+
+.container {
+    background-color: yellow;
+}
+@media (min-width: 768px) {
+    .container {
+      background-color: yellow;
+    }
+  }
+@media (min-width: 1024px) {
+    .container {
+        background-color: navy;
+    }
+}
