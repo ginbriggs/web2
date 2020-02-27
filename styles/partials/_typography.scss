@@ -1,0 +1,19 @@
+@import url('https://fonts.googleapis.com/css?family=Oswald|PT+Sans+Narrow&display=swap');
+
+$heading_primary_font: 'Oswald', sans-serif;
+
+$heading_secondary_font: 'PT Sans Narrow', cursive;
+
+h1 {
+    @include font_type($heading_primary_font, rgb(255, 106, 188), 30px);
+    text-align: center;
+    
+}
+h2{
+    @include font_type($heading_secondary_font, rgb(231, 123, 177), 20px);
+    text-align: center;
+}
+p{
+    text-align: center;
+    @include font_type($heading_secondary_font, rgb(202, 34, 138), 15px);
+}

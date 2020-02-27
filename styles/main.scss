@@ -1,15 +1,22 @@
 @import './vendors/normalize';
+@import './partials/mixins';
+@import './partials/typography';
+@import './partials/colors';
+
 
 .container {
-    background-color: yellow;
+    h1{
+    background-size: cover;
+    background-position-x: center;
+    }
 }
 @media (min-width: 768px) {
     .container {
-      background-color: yellow;
+      background-color: rgb(255, 125, 186);
     }
   }
 @media (min-width: 1024px) {
     .container {
-        background-color: navy;
+        background-color: rgb(156, 40, 151);
     }
 }
