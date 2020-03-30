@@ -2,7 +2,19 @@
 @import './partials/mixins';
 @import './partials/typography';
 @import './partials/colors';
+@import './partials/other';
 
+
+
+.flex-container {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+  align-items: center;
+  border: 3px solid black;
+  flex-basis: auto;
+}
 
 .container {
     h1{
