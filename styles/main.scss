@@ -4,11 +4,23 @@
 @import './partials/colors';
 @import './partials/other';
 
+.profilepic {
+  align-content: center;
+  align-items: center;
+  justify-content: center;
+  
+}
 
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
 
 .flex-container {
   display: flex;
-  flex-direction: column;
+  flex-direction: row;
   flex-wrap: wrap;
   justify-content: flex-start;
   align-items: center;
@@ -21,6 +33,7 @@
     background-size: cover;
     background-position-x: center;
     }
+
 }
 @media (min-width: 768px) {
     .container {
@@ -29,6 +42,6 @@
   }
 @media (min-width: 1024px) {
     .container {
-        background-color: rgb(156, 40, 151);
+        background-color: rgb(255, 177, 251);
     }
 }
