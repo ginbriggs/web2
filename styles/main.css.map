@@ -6,7 +6,8 @@
         "vendors/_normalize.scss",
         "partials/_mixins.scss",
         "partials/_typography.scss",
-        "partials/_colors.scss"
+        "partials/_colors.scss",
+        "partials/_other.scss"
     ],
     "names": [],
     "file": "main.css"

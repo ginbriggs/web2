@@ -2,13 +2,38 @@
 @import './partials/mixins';
 @import './partials/typography';
 @import './partials/colors';
+@import './partials/other';
 
+.profilepic {
+  align-content: center;
+  align-items: center;
+  justify-content: center;
+  
+}
+
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
+
+.flex-container {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+  align-items: center;
+  border: 3px solid black;
+  flex-basis: auto;
+}
 
 .container {
     h1{
     background-size: cover;
     background-position-x: center;
     }
+
 }
 @media (min-width: 768px) {
     .container {
