@@ -363,6 +363,13 @@ p {
   font-size: 15px;
 }
 
+li {
+  font-family: "PT Sans Narrow", cursive;
+  color: #e77bb1;
+  font-size: 20px;
+  text-align: center;
+}
+
 h1 {
   background-image: url(/assets/images/pastel.jpg);
   height: 40px;
@@ -381,6 +388,51 @@ body {
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
+  -webkit-animation: itrotates 5s infinite;
+          animation: itrotates 5s infinite;
+}
+
+@-webkit-keyframes itrotates {
+  0% {
+    -webkit-transform: rotate(0deg);
+            transform: rotate(0deg);
+    border-radius: 0;
+  }
+  100% {
+    -webkit-transform: rotate(360deg);
+            transform: rotate(360deg);
+    border-radius: 50%;
+  }
+}
+
+@keyframes itrotates {
+  0% {
+    -webkit-transform: rotate(0deg);
+            transform: rotate(0deg);
+    border-radius: 0;
+  }
+  100% {
+    -webkit-transform: rotate(360deg);
+            transform: rotate(360deg);
+    border-radius: 50%;
+  }
+}
+
+.para {
+  -webkit-transition-property: width;
+  transition-property: width;
+  -webkit-transition-duration: 1s;
+          transition-duration: 1s;
+  -webkit-transition-timing-function: linear;
+          transition-timing-function: linear;
+}
+
+.para:hover {
+  background-color: #ffb3ec;
+}
+
+.li {
+  background-color: paleturquoise;
 }
 
 .center {
@@ -414,6 +466,13 @@ body {
 .container h1 {
   background-size: cover;
   background-position-x: center;
+}
+
+.container .banner {
+  -webkit-transition-property: width;
+  transition-property: width;
+  -webkit-transition-duration: 1s;
+          transition-duration: 1s;
 }
 
 @media (min-width: 768px) {

@@ -17,3 +17,7 @@ p{
     text-align: center;
     @include font_type($heading_secondary_font, rgb(202, 34, 138), 15px);
 }
+li{
+    @include font_type($heading_secondary_font, rgb(231, 123, 177), 20px);
+    text-align: center;
+}
