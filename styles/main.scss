@@ -4,13 +4,35 @@
 @import './partials/colors';
 @import './partials/other';
 
+
 .profilepic {
   align-content: center;
   align-items: center;
   justify-content: center;
-  
+  animation: itrotates 5s infinite;
+    
+  }
+  @keyframes itrotates {
+    0% {
+      transform: rotate(0deg);
+      border-radius: 0;
+    }
+    100% {
+      transform: rotate(360deg);
+      border-radius: 50%;
+    }
+  }
+.para {
+  transition-property: width;
+  transition-duration: 1s;
+  transition-timing-function: linear;
+  &:hover {
+    background-color: rgb(255, 179, 236);
+  }
 }
-
+  .li {
+    background-color: paleturquoise
+  }
 .center {
   display: block;
   margin-left: auto;
@@ -33,7 +55,10 @@
     background-size: cover;
     background-position-x: center;
     }
-
+.banner {
+  transition-property: width;
+  transition-duration: 1s;
+}
 }
 @media (min-width: 768px) {
     .container {
