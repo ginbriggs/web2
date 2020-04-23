@@ -379,6 +379,11 @@ body {
   background-color: #fce9f6;
 }
 
+.container {
+  min-height: 150px;
+  background-color: plum;
+}
+
 .profilepic {
   -ms-flex-line-pack: center;
       align-content: center;
@@ -428,7 +433,7 @@ body {
 }
 
 .para:hover {
-  background-color: #ffb3ec;
+  background-color: #f879d8;
 }
 
 .li {
@@ -463,12 +468,12 @@ body {
       flex-basis: auto;
 }
 
-.container h1 {
+.start h1 {
   background-size: cover;
   background-position-x: center;
 }
 
-.container .banner {
+.start .banner {
   -webkit-transition-property: width;
   transition-property: width;
   -webkit-transition-duration: 1s;
@@ -477,13 +482,13 @@ body {
 
 @media (min-width: 768px) {
   .container {
-    background-color: #ff7dba;
+    background-color: plum;
   }
 }
 
 @media (min-width: 1024px) {
   .container {
-    background-color: #ffd7dd;
+    background-color: plum;
   }
 }
 /*# sourceMappingURL=main.css.map */
