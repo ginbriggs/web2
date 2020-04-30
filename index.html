@@ -64,7 +64,7 @@
             </div>
         </div>
 <br><br><br>
-    <h2><b> Due to Covid-19, Commissions may take a bit longer to finish because I'm helping out the family. Thank you for your patience!<br><br><br></b>
+    <h2 id="heading"><b> Due to Covid-19, Commissions may take a bit longer to finish because I'm helping out the family. Thank you for your patience!<br><br><br></b>
 
 [3/5] Commission Slots Taken<br>
 1. Alleco [HB x2] Pending<br>
@@ -107,18 +107,21 @@
     Email: CelestialDoki@gmail.com <br>
     Discord: https://discord.gg/cGeaW9k
 V<br><br><br>
-<div class="jumbotron">
+
+<div id="jumbotron" class="jumbotron">
   <h4 class="display-4">Hi there!</h4>
   <p class="lead">The following will be a commission form required to fill out in order to reserve a slot.</p>
   <hr class="my-4">
   <p>Please answer all of the questions below, and I'll look over your form when I can.</p>
 </div>
+
 <form>
-    <div class="form-group">
+    <div id="form-group" class="form-group">
+       <br>
       <label for="exampleFormControlInput1">Email address</label>
       <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com">
     </div>
-    <div class="form-group">
+    <div id="form-group" class="form-group">
       <label for="exampleFormControlSelect1">What kind of commission?</label>
       <select class="form-control" id="exampleFormControlSelect1">
         <option>Bust Drawing</option>
@@ -128,17 +131,20 @@ V<br><br><br>
         <option>Emote Set</option>
       </select>
     </div>
-    <div class="form-group">
+    <button id="dismiss" role="button" class=btn  btn-primary btn-block>Dismiss Details</button>
+    <div id="form-details" class="form-group">
       <label for="exampleFormControlTextarea1">Any details about your commission?</label>
       <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+    
     </div>
   </form>
+
 <b>[ Sample Photos ]</b></li> 
         </p>
         </div>
         </div>
         
-              <script src="js/main.js"></script>
+              
 
         <div class="flex-container">
 
@@ -162,9 +168,12 @@ V<br><br><br>
         </div>
 
         <button type="button" class="btn btn-primary">Back to Top</button>
-        <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+        <!-- <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script> -->
+        <script src="js/jquery-3.4.1.slim.min.js"></script>
         <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
         <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
-    </body>
+    
+        <script src="js/main.js"></script>
+      </body>
 
 </html>
